@@ -1,0 +1,35 @@
+.display {
+    .photo {
+        margin: 3rem 0;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__img {
+            width: 20rem;
+        }
+        &__icon {
+            width: 3rem;
+        }
+    }
+    .station {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__arrow {
+            font-size: 5rem;
+            color: $color-main-light;
+        }
+        &__text {
+            font-size: 5rem;
+            color: $color-main-light;
+        }
+    }
+    .stripe {
+        background-image: url(../imgs/change.png);
+        background-position: center;
+        height: 6rem;
+    }
+}

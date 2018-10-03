@@ -1,0 +1,12 @@
+.container {
+    width: 40rem;
+    height: 60rem;
+    background-color: $color-main;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+@media only screen and (max-width: 890px) {
+    .container {
+        margin-bottom: 3rem;
+    }
+}

@@ -1,0 +1,24 @@
+.stations {
+    .main {
+        height: 40rem;
+        overflow: auto;
+        .list {
+            padding: 2rem;
+
+            &__item {
+                font-size: 2.7rem;
+                color: $color-main-light;
+                border-bottom: 1px solid #40404a;
+                font-weight: 200;
+                cursor: pointer;
+                min-height: 6rem;
+                line-height: 6rem;
+                display: flex;
+                justify-content: space-between;
+                &--active {
+                    color: $color-header-main;
+                }
+            }
+        }
+    }
+}

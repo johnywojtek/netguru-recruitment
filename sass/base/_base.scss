@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: $color-main-light;
+    text-decoration: none;
+}
+body {
+    background-color: #21212b;
+    margin-top: 6rem;
+}
+.main__container {
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 890px) {
+    .main__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
